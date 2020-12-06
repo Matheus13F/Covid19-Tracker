@@ -1,0 +1,30 @@
+li{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 300px;
+    max-width: 250px;
+}
+img{
+    width: 70px;
+}
+
+.item-menu{
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-menu-item{
+    margin-top: 20px;
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+
+}
+
+.card-menu-item .painel{
+    width: 30vw;
+    justify-content: space-between;
+}

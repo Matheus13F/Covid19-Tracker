@@ -1,0 +1,18 @@
+$azul: #3399ff;
+
+$font-weight: (
+    "regular": 400,
+    "medium": 500,
+    "bold": 700
+);
+
+@mixin flexCenter($direction) {
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  flex-direction: $direction;
+}
+
+@mixin colorize($color) {
+  background-color: $color;
+}

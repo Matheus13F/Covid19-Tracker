@@ -1,0 +1,43 @@
+@import './Pages/main';
+@import './reset';
+@import './variable';
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+html{
+  width: 100%;
+  min-height: 100%;
+
+  body{
+    background-image: url(../Img/covidWalpaper.jpg);
+    line-height: normal;    
+  }
+}
+
+@function weight($key){
+  @return map-get($font-weight, $key);
+}
+
+.alguma-classe{
+  @include flexCenter(column); /*passando a direção do flex direction como parametro pro mixin */
+  font-weight: weight(bold); /*chamando a função que recebe por parematro o bold, e executa um map-get na variavel font-weight criada com todas as estilos */
+
+}
+
+.btn-sass{
+  background-color: red;
+  width: 200px;
+  margin: 0 20px;
+}
+
+.btn-sass:hover{
+  background-color: #990000;
+}
+
+
+

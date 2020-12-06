@@ -1,0 +1,19 @@
+@import '../variable';
+$White: #fff;
+
+.div-main{
+    color: $White;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+.card{
+    @include colorize(#ffff00);
+
+}
+
+/* font-weight: 500;
+font-size: 1.5rem */

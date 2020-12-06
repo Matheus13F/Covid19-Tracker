@@ -1,0 +1,105 @@
+@charset "UTF-8";
+.div-header {
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*, *:after, *:before {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+button, [type="submit"] {
+  cursor: pointer;
+  -webkit-appearance: button;
+}
+
+p {
+  -webkit-margin-start: 0;
+          margin-inline-start: 0;
+  -webkit-margin-end: 0;
+          margin-inline-end: 0;
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+}
+
+html {
+  width: 100%;
+  min-height: 100%;
+}
+
+html body {
+  background-image: url(../Img/covidWalpaper.jpg);
+  line-height: normal;
+}
+
+.alguma-classe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  /*passando a direção do flex direction como parametro pro mixin */
+  font-weight: 700;
+  /*chamando a função que recebe por parematro o bold, e executa um map-get na variavel font-weight criada com todas as estilos */
+}
+
+.btn-sass {
+  background-color: red;
+  width: 200px;
+  margin: 0 20px;
+  justify-content: space-evenly;
+}
+
+.btn-sass:hover {
+  background-color: #990000;
+}
+/*# sourceMappingURL=global.css.map */
+
+/* .flexcenter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+} */
